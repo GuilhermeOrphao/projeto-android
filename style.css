@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @font-face {
   font-family: "Android";
-  src: url(pacote-projeto-d010/fontes/idroid.otf) format("opentype");
+  src: url(fontes/idroid.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -30,8 +30,8 @@ body {
   background-color: var(--cor0);
 }
 
-a.externo::after{
-  content: '\1F517';
+a.externo::after {
+  content: "\1F517";
 }
 
 header {
@@ -54,11 +54,11 @@ header > p {
   font-family: var(--fonte-padrao);
   font-size: 1.2em;
   color: white;
-  max-width: 500px;
+  max-width: 600px;
   padding-right: 10px;
   padding-left: 10px;
   margin: auto;
-  margin-bottom: 30px;
+  padding-bottom: 50px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
@@ -162,25 +162,25 @@ div.video > iframe {
   left: 5%;
   width: 90%;
   height: 90%;
-} 
+}
 
 aside {
   background-color: var(--cor1);
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.280);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.28);
 }
 
 aside > h3 {
   background-color: var(--cor4);
   color: white;
-  padding: 5px;
+  padding: 10px;
   margin: -10px -10px 0px -10px;
   border-radius: 10px 10px 0px 0px;
 }
 
-aside > ul{
-  list-style-type: '\2714\00A0\00A0';
+aside > ul {
+  list-style-type: "\2714\00A0\00A0";
   list-style-position: inside;
   columns: 2;
 }
